@@ -80,5 +80,6 @@ rsquare
 student_Score <- predict(model1,data.frame(Hours = c(9.25)))
 student_Score 
 print(paste("the predicted score for a student who studied for 9.25hrs/day = ",round(student_Score ,4)))
+#"the predicted score for a student who studied for 9.25hrs/day =  92.9099"
                  
       
